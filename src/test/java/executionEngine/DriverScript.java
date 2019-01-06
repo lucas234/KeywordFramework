@@ -4,7 +4,7 @@ import java.lang.reflect.Method;
 import config.ActionKeywords;
 import utility.ExcelUtils;
 
-public class DriverScriptReflection {
+public class DriverScript {
     //This is a class object, declared as 'public static'
     //So that it can be used outside the scope of main[] method
     public static ActionKeywords actionKeywords;
@@ -14,7 +14,7 @@ public class DriverScriptReflection {
     public static Method method[];
 
 //    //Here we are instantiating a new object of class 'ActionKeywords'
-//    public DriverScriptReflection() throws NoSuchMethodException, SecurityException{
+//    public DriverScript() throws NoSuchMethodException, SecurityException{
 //        actionKeywords = new ActionKeywords();
 //        //This will load all the methods of the class 'ActionKeywords' in it.
 //        //It will be like array of meth
