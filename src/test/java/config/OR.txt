@@ -1,0 +1,8 @@
+# Home Page Objects
+btn_MyAccount=.//*[@id='account']/a
+btn_LogOut=.//*[@id='account_logout']
+
+# Login Page Object
+txtbx_UserName=.//*[@id='log']
+txtbx_Password=.//*[@id='pwd']
+btn_LogIn=.//*[@id='login']
